@@ -9,7 +9,7 @@ public class AbstractFactoryPatternTest {
         Vehicle audiBicycle = audiFactory.createBicycle();
         audiCar.show();
         audiBicycle.show();
-        
+
         System.out.println("\n\n");
 
         AbstractFactory benzeFactory = new BenzeFactory();
